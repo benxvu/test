@@ -16,6 +16,11 @@ body
 }
 .accordion
 {
-  width: 800px;
+  max-width: 800px;
 }
-.accordion
+.accordion .contentBx
+{
+  position: relative; 
+  margin: 10px 20px;
+}
+.accordion .contentBx
