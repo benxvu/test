@@ -40,5 +40,12 @@ body
   transform: translateY(-50&);
   font-size: 1.5em;
 }
-.accordion .contentBx
+.accordion .contentBx .content
+{
+  position: relative;
+  background: #fff;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
 }
