@@ -23,4 +23,22 @@ body
   position: relative; 
   margin: 10px 20px;
 }
+.accordion .contentBx .label
+{
+  position: relative;
+  padding: 10px;
+  background: #2694af;
+  color: #fff;
+  cursor: pointer;
+}
+.accordion .contentBx .label::before
+{
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50&);
+  font-size: 1.5em;
+}
 .accordion .contentBx
+}
